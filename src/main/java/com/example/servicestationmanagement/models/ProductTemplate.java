@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 @Data
 public class ProductTemplate {
     private int id;
-    private Station stationName;
-    private ProductTemplate product;
+    private FuelType name;
+    private double unitPrice;
+    private int rateEvaporation;
 }
