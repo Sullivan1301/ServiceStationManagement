@@ -1,11 +1,14 @@
 package com.example.servicestationmanagement.models;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class Product {
+public class ProductTemplate {
     private int id;
-    private Station station;
+    private Station stationName;
     private ProductTemplate product;
 }
