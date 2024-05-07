@@ -12,6 +12,7 @@ import java.time.Instant;
 public class StockMovement {
     private int id;
     private Stock stock;
+    private FuelType product;
     private Float quantity;
     private MovementType movementType;
     private Instant movementTimeDate;
